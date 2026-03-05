@@ -1,0 +1,22 @@
+{
+  "name": "@repo/elements-native",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React Native versions of AI Elements components.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.tsx"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-native": "0.79.6"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/react": "19.2.8",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "AI Elements Native",
+    "slug": "ai-elements-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes"
+  }
+}
